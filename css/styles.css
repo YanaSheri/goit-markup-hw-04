@@ -359,11 +359,13 @@ ul {
     fill: var(--icon-color);
 }
 
-.team-icons-link:hover {
+.team-icons-link:hover,
+.team-icons-link:focus {
     background-color: var(--accent-color);
 }
 
-.team-icons-link:hover .team-svg {
+.team-icons-link:hover .team-svg,
+.team-icons-link:focus .team-svg {
     fill: var(--white-text-color);
 }
 
