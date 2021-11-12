@@ -18,6 +18,7 @@
     --accent-color: #2196F3;
     --hero-and-footer-bg-color: #2F303A;
     --icon-color: #AFB1B8;
+    --footer-bg-icon-color: #44454E;
 }
 
 *,
@@ -407,10 +408,15 @@ ul {
     padding-bottom: 60px;
 }
 
-/* .footer-container {  
-} */
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+.left-footer {
+    margin-right: 70px;
+}
 
-/* ЛОГО ФУТЕРА = Studio*/
+/* ЛОГО ФУТЕРА "Studio" */
 .span-footer {
     color: var(--white-text-color);
 }
@@ -443,8 +449,51 @@ ul {
     color: var(--accent-color);
 }
 
+.right-footer-text {
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-text-color);
+}
 
-/* =========== PORTFOLIO ========== */
+.footer-icons-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-icons-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.footer-icons-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    padding: 12px;
+    justify-content: center;
+    background-color: var(--footer-bg-icon-color);
+}
+
+.footer-svg {
+    width: 20px;
+    height: 20px;
+    fill: var(--white-text-color);
+}
+
+.footer-icons-link:hover {
+    background-color: var(--accent-color);
+}
+
+/* .footer-icons-link:hover .team-svg {
+    fill: var(--white-text-color);
+} */
+
+
+/* =============== PORTFOLIO ============== */
 
 /* -- ФИЛЬТР -- */
 .filter-list {
