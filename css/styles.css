@@ -404,6 +404,11 @@ ul {
     fill: var(--icon-color);
 }
 
+.clients-icons-link:hover,
+.clients-icons-link:focus {
+    border: 1px solid var(--accent-color);
+}
+
 .clients-icons-link:hover .clients-svg,
 .clients-icons-link:focus .clients-svg {
     fill: var(--accent-color);
