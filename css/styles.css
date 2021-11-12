@@ -123,6 +123,7 @@ ul {
 
 .svg-header {
     margin-right: 10px;
+    fill: var(--icon-color);
 }
 
 .nav-item:not(:last-child) {
