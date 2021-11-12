@@ -20,7 +20,7 @@
     <header class="header">
         <div class="container header-container">
             <nav class="nav">
-                <a href="./index.html" class="logo-link"><span class="span">Web</span>Studio</a>
+                <a class="logo-link" href="./index.html" ><span class="span">Web</span>Studio</a>
                 <ul class="site-nav">
                     <li class="nav-item"><a href="./index.html" class="link">Студия</a></li>
                     <li class="nav-item"><a href="./portfolio.html" class="link-current">Портфолио</a></li>
@@ -28,8 +28,18 @@
                 </ul>
             </nav>
             <div class="contacts-nav">
-                <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
-                <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+                <a href="mailto:info@devstudio.com" class="link">
+                    <svg class="svg-header" width="16" height="12">
+                        <use href="./images/sprite.svg#icon-envelope"></use>
+                    </svg>
+                    info@devstudio.com
+                </a>
+                <a href="tel:+380961111111" class="link">
+                    <svg class="svg-header" width="10" height="16">
+                        <use href="./images/sprite.svg#icon-smartphone"></use>
+                    </svg>
+                    +38 096 111 11 11
+                </a>
             </div>
         </div>
     </header>
@@ -145,11 +155,46 @@
 
     <footer class="footer">
         <div class="container footer-container">
-            <a class="logo-link" href="./index.html"><span class="span">Web</span><span
-                    class="span-footer">Studio</span></a>
-            <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
-            <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a>
+            <div class="left-footer">
+                <a class="logo-link" href="./index.html"><span class="span">Web</span><span
+                        class="span-footer">Studio</span></a>
+                <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
+                <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a>
+            </div>
+            <div class="right-footer">
+                <h2 class="right-footer-text">присоединяйтесь</h2>
+                <ul class="footer-icons-list">
+                    <li class="footer-icons-item">
+                        <a class="footer-icons-link" href="">
+                            <svg class="footer-svg">
+                                <use href="./images/sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-icons-item">
+                        <a class="footer-icons-link" href="">
+                            <svg class="footer-svg">
+                                <use href="./images/sprite.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-icons-item">
+                        <a class="footer-icons-link" href="">
+                            <svg class="footer-svg">
+                                <use href="./images/sprite.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-icons-item">
+                        <a class="footer-icons-link" href="">
+                            <svg class="footer-svg">
+                                <use href="./images/sprite.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
