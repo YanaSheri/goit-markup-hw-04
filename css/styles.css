@@ -337,11 +337,12 @@ ul {
 }
 
 .team-icons-link {
-    display: block;
+    display: flex;
     width: 44px;
     height: 44px;
     border-radius: 50%;
     padding: 12px;
+    justify-content: center;
 }
 
 .team-svg {
@@ -359,6 +360,44 @@ ul {
 }
 
 
+/* --- СЕКЦИЯ "ПОСТОЯННЫЕ КЛИЕНТЫ" --- */
+
+/* .clients-container {
+    
+} */
+
+.clients-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.clients-icons-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.clients-icons-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.clients-svg {
+    width: 106px;
+    height: 60px;
+    fill: var(--icon-color);
+}
+
+.clients-icons-link:hover .clients-svg,
+.clients-icons-link:focus .clients-svg {
+    fill: var(--accent-color);
+}
 
 /* ================== FOOTER ===================== */
 
